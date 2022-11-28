@@ -1,0 +1,68 @@
+*{
+	font-family: 'Noto Sans KR', sans-serif;
+}
+#form{
+	margin: auto;
+}
+.whitebox{
+	width: 1000px;
+	height: 600px;
+	background-color: white;
+	position: relative;
+}
+
+#infotable{
+	width: 600px;
+	margin: auto;
+	text-align: center;
+	border-collapse: collapse;
+	border: 1.5px solid white;
+	padding: 10px;
+	font-size: 18px;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#infotitle{
+	background-color: #4daeb2ff;
+	border: 1.5px solid white;
+	color: white;
+	width: 150px;
+	padding: 10px;
+	font-weight: bold;
+}
+#infocontent{
+	background-color: #eeeeeeee;
+	border: 1.5px solid white;
+	padding: 10px;
+}
+#reservbutton{
+	background-color: #2f528fff;
+	color: white;
+	margin: 5px;
+	padding: 0px;
+	border: none;
+	border-radius: 20px;
+	width: 100px;
+	height: 40px;
+	font-size: 18px;
+}
+#cancelbutton{
+	background-color: white;
+	color: #929292;
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid #929292;
+	border-radius: 20px;
+	width: 100px;
+	height: 40px;
+	font-size: 18px;
+	text-decoration: none;
+}
+#buttons{
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}

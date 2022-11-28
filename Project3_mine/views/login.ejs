@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%= title %></title>
+		<meta charset='utf-8'>
+		<link rel='stylesheet' href='/stylesheets/style.css'/>
+		<script src="/javascripts/jquery-3.6.0.min.js"></script>
+        <style>
+            @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+            .button{
+                background-color: #2f528fff;
+                border: none;
+                border-radius: 25px;
+                font-size: 18px;
+                font-family: 'Noto Sans KR';
+                color: #f4f4f4ff;
+                width: 450px;
+                height: 45px;
+            }
+            .input{
+                background-color: #eeeeeeee;
+                border: none;
+                border-radius: 20px;
+                font-family: 'Noto Sans KR';
+                font-size: 18px;
+                width: 450px;
+                height: 40px;
+            }
+            .center{
+                margin: auto;
+            }
+            .form{
+                display: table;
+                font-family: 'Noto Sans KR';
+                font-size: 18px;
+                text-align: left;
+                vertical-align: middle;
+                margin: auto;
+            }
+            .text {
+                font-family: 'Noto Sans KR';
+                font-size: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <form id="login" action="/vaccine/login" method="post">
+            <div class="form">
+                <div style="height: 80px">
+                    <p>아이디<br>
+                    <input class="input" type="text" name="id" id="id" size="12" maxlength="12" required></p>
+                </div>
+                <div style="height: 100px">
+                    <p>비밀번호<br>
+                    <input class="input" type="password" name="passwd" id="passwd" size="12" maxlength="12" required></p>
+                </div>
+            </div><br>
+            <div align="center"><button type="submit" class="button">로그인</button></div><br>
+            <div align="center" class="text">아이디가 없으신가요? <a href="/vaccine/join">회원가입</a></div>
+        </form>        
+    </body>
+</html>

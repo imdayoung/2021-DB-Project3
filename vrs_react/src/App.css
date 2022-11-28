@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import 'react-calendar/dist/Calendar.css';
+
+.html{
+	font-family: 'Noto Sans KR';
+	background-color: #f4f4f4ff;
+}
+
+/*타이틀*/
+.titleSpace {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: flex-end;
+	align-items: center;
+	background-color: white;
+	height: 80px;
+}
+
+.title {
+	text-align: end;
+	font-size: 30px;
+	font-weight: bold
+}
+
+.titleRightSpace {
+	display: flex;
+	justify-content: flex-end;
+	text-align: end;
+	padding: 5px;
+	margin-right: 5px;
+	font-size: 15px;
+	font-family: 'Noto Sans KR';
+}
+
+.titleRight {
+	margin-right: 10px;
+}
+
+/*페이지 이동 탭*/
+.pageMove {
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+	
+	background-color: #2f528fff;
+	height: 50px;
+	
+}
+
+.page {
+	font-family : 'Noto Sans KR';
+	color: white;
+	font-size: 20px;
+}
+
+.mainInfoSpace {
+	padding-top: 40px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 40px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-items: center;
+	font-size: 40px;
+	font-family: 'Noto Sans KR';
+	font-weight: 600;
+}
+.mainInfo {
+	justify-items: center;
+}
+
+.mainInfoNum {
+	display: grid;
+	grid-template-columns: 1.5fr 1fr;
+	justify-items: center;
+}
+
+.mainNum {
+	color: #4daeb2ff;
+}

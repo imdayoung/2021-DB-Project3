@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+*{
+	font-family: 'Noto Sans KR';
+}
+#form{
+	margin: auto;
+	padding: 10px;
+	background-color: white;
+	width: 1020px;
+}
+#searchbox{
+	border: 0px solid;
+	width: 940px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 10px;
+	background-color: #4daeb2ff;
+	color: white;
+	font-size: 16px;
+}
+#searchbar{
+	margin-left:10px;
+	margin-right:40px;
+	width:200px;
+	text-align: center;
+	font-size: 16px;
+}
+#searchbutton{ /* 기본 예약 페이지에서 사용하는 버튼으로 바꿔도 됨 */
+	background: #595959;
+	color: white;
+	margin: 5px;
+	padding: 0px;
+	border: none;
+	border-radius: 4px;
+	width: 50px;
+	height: 25px;
+	font-size: 16px;
+}
+#table{
+	width: 1000px;
+	margin: 10px;
+	text-align: center;
+	border-collapse: collapse;
+	border: 1px solid white;
+}
+#td{
+	border-bottom: 1.5px solid white;
+	border-left: 1.5px solid white;
+	padding: 5px;
+	border: 1px solid white;
+}
+.td:first-child{
+	border-left:none;
+}
+#tabletitle{
+	background: #4daeb2ff;
+	color: white;
+	font-size: 16px;
+}
+#tablecontent{
+	background: #eeeeeeee;
+	font-size: 16px;
+}
+#td_reserv{
+	background: white
+}
+#a_reserv{
+	background-color: #2f528fff;
+	color: white;
+	padding: 2px;
+	padding-left: 7px;
+	padding-right: 7px;
+	border: 1px, solid;
+	border-radius: 4px;
+	text-decoration: none;
+	font-size: 16px;
+}
+#searchResult {
+	text-align: center;
+	padding-top: 20px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%= title %></title>
+		<meta charset='utf-8'>
+		<link rel='stylesheet' href='/stylesheets/style.css'/>
+		<script src="/javascripts/jquery-3.6.0.min.js"></script>
+        <script>
+            
+        </script>
+    </head>
+    <body>
+        <h1><%= title %></h1>
+        <form id="main" action="/vaccine/main" method="post">
+            <% if(is_logined == true){ %>
+                <a href="/vaccine/myinfo" style="font-size:20px">내 정보</a>
+                <a href="/vaccine/logout" style="font-size:20px">Log Out</a><br>
+            <% }else{ %>
+                <a href="/vaccine/login" style="font-size:20px">Log In</a><br>
+            <% } %>
+
+            <td>오늘 접종자</td>
+            <td><%=rows0.ICOUNT%>명</td>
+            <td>오늘 확진자</td>
+            <td><%=rows1.DCOUNT%>명</td>
+            <img src="/images/banner.png" width="1400" alt="banner image" title="banner image">
+        </form>
+    </body>
+</html>

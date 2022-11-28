@@ -1,0 +1,72 @@
+/*전체 적용*/
+.loginForm{
+	display: table;
+	font-family: 'Noto Sans KR';
+	font-size: 18px;
+	text-align: left;
+	vertical-align: middle;
+	margin: auto;
+}
+
+/*타이틀*/
+#login {
+	align-items: center;
+	margin-top: 20px;
+}
+
+#loginTitle {
+	text-align: center;
+	font-family: 'Noto Sans KR';
+	font-size: 30px;
+	font-weight: 600;
+}
+
+/*아이디 비밀번호*/
+#idSpace {
+	margin-bottom: 20px;
+}
+
+.loginInput{
+	background-color: #eeeeeeee;
+	border: none;
+	border-radius: 20px;
+	font-family: 'Noto Sans KR';
+	font-size: 18px;
+	width: 450px;
+	height: 40px;
+}
+
+.joinText {
+	font-family: 'Noto Sans KR';
+	font-size: 15px;
+}
+
+
+#pwSpace {
+	height: 110px;
+}
+
+
+/*회원가입 및 로그인*/
+.loginBtn {
+	background-color: #2f528fff;
+	border: none;
+	border-radius: 25px;
+	font-size: 18px;
+	font-family: 'Noto Sans KR';
+	color: #f4f4f4ff;
+	width: 450px;
+	height: 45px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.join {
+	display: flex;
+	margin: 10px;
+	justify-content: center;
+}
+
+#tempSpace {
+	width: 10px;
+}

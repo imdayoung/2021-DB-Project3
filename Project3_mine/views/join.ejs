@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title><%= title %></title>
+		<meta charset='utf-8'>
+		<link rel='stylesheet' href='/stylesheets/style.css'/>
+		<script src="/javascripts/jquery-3.6.0.min.js"></script>
+        <style>
+            @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+            .button{
+                background-color: #2f528fff;
+                border: none;
+                border-radius: 25px;
+                font-size: 18px;
+                font-family: 'Noto Sans KR';
+                color: #f4f4f4ff;
+                width: 450px;
+                height: 45px;
+            }
+            .table{
+                text-align: right;
+                font-size: 18px;
+                font-family: 'Noto Sans KR';
+                width: 80px;
+                height: 60px;
+            }
+            .input{
+                background-color: #eeeeeeee;
+                border: none;
+                border-radius: 20px;
+                font-family: 'Noto Sans KR';
+                font-size: 18px;
+                width: 370px;
+                height: 40px;
+            }
+            .padding {
+                padding: 8px;
+            }
+            .text{
+                font-family: 'Noto Sans KR';
+                font-size: 15px;
+                text-align: left;
+                width: 450px;
+            }
+        </style>
+    </head>
+    <body>
+        <form id="join" action="/vaccine/join" method="post">
+            <div align="center">
+                <table>
+                    <tr>
+                        <td class="table">이름</td>
+                        <td class="padding"><input class="input" type="text" name="name" id="name" size="10" maxlength="10" required></td>
+                    </tr>
+                    <tr>
+                        <td class="table">주민번호</td>
+                        <td class="padding"><input class="input" type="password" name="rrn" id="rrn" size="14" minlength="14" maxlength="14" required></td>
+                    </tr>
+                    <tr>
+                        <td class="table">아이디</td>
+                        <td class="padding"><input class="input" type="text" name="id" id="id" size="12" minlength="4" maxlength="12" required></td>
+                    </tr>
+                    <tr>
+                        <td class="table">비밀번호</td>
+                        <td class="padding"><input class="input" type="password" name="passwd" id="passwd" size="12" maxlength="12" required></td>
+                    </tr>
+                    <tr>
+                        <td class="table">전화번호</td>
+                        <td class="padding"><input class="input" type="text" name="tel" id="tel" size="11" maxlength="11" required></td>
+                    </tr>
+                    <tr>
+                        <td class="table">주소</td>
+                        <td class="padding"><input class="input" type="text" name="address" id="address" size="30" maxlength="50" required></td>
+                    </tr>
+                </table><br>
+                <div style="height: 60px;"><button type="submit" class="button">가입하기</button></div>
+                <div class="text">
+                    * 주민번호는 'xxxxxx-xxxxxxx' 형식으로 입력해 주세요.<br>
+                    * 휴대폰 번호는 '010xxxxxxxx' 형식으로 입력해 주세요.
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

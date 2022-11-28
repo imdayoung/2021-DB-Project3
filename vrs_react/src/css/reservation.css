@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+/*소개 및 주의사항*/
+.descriptionContainer {
+	display: flex;
+	width: 100%;
+	height:150px;
+	justify-content: center;
+	align-items:end;
+}
+
+.descriptionSpace{
+	width: 50%;
+}
+
+.description {
+	align-items: center;
+
+	text-align: start;
+	font-family : 'Noto Sans KR';
+	font-size : 30px;
+}
+
+.divider {
+	width: 100%;
+	height: 2px;
+	background-color: #2f528fff;
+}
+
+/*주의사항*/
+.warningSpace {
+	padding-left: 25%;
+	padding-right: 25%;
+	margin-top: 2%;
+	justify-content:center;
+	align-items: center;
+}
+.warning {
+	padding: 5%;
+
+	background-color: #eeeeeeee;
+	font-family: 'Noto Sans KR';
+}
+
+/*검색*/
+.searchTabSpace{
+	padding-left: 25%;
+	padding-right: 25%;
+	margin-top: 2%;
+}
+.searchTab {
+	display: flex;
+	padding: 5px;
+	justify-content: space-around;
+	align-items: center;
+
+	background-color: #4daeb2ff;
+	color: white;
+	font-family: 'Noto Sans KR';
+
+}
+
+#searchButton {
+	margin-right: 2.5px;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: #595959ff;
+	color: white;
+	font-family: 'Noto Sans KR';
+	border: 0;
+}
+
+#selectArea {
+	width: 20%;
+	padding: 3.5px;
+
+	font-family: 'Noto Sans KR';
+	text-align: center;
+	border: 0;
+}
+#search {
+	width: 30%;
+	height: 25px;
+	border: 0;
+}
+#area {
+	padding-left:3%;
+	padding-right:2%;
+}
+
+/*병원 결과*/
+.linkStyle {
+	color: black;
+	border: 0;
+	text-decoration: underline;
+	font-family: 'Noto Sans KR';
+	font-weight: 400;
+	font-size: 15px;
+}
+
+.columnStyle{
+	background-color: #4daeb2ff;
+	font-family: 'Noto Sans KR';
+	font-weight: 100;
+	height: 35px;
+	color: white;
+}
+
+.tableStyle {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 25%;
+	width: 50%;
+	background-color: #eeeeeeee;
+}
+
+.tableInStyle {
+	font-family: 'Noto Sans KR';
+	font-size: 15px;
+	font-weight: 400;
+}
+
+/*시간 및 백신*/
+.calendarSpace {
+	margin-top: 2%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.calendarAndTime {
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+}
+
+#calendar {
+	width: 50%;
+}
+
+.calendarTitle {
+	width: 99%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin-bottom: 2%;
+	background-color: #4daeb2ff;
+	color: white;
+	font-family: 'Noto Sans KR';
+	font-weight: 400;
+	text-align: center;
+}
+
+.calendarContent {
+	width: 99%;
+	margin-bottom: 10%;
+	justify-content: center;
+}
+
+.time {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	column-gap: 10px;
+	row-gap: 10px;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: 5%;
+}
+
+.btnStyle{
+	width: 100%;
+	margin: 5%;
+	background-color: #eeeeeeee;
+	border: 1.5px solid gray;
+	font-family: 'Noto Sans KR';
+	font-weight: 400;
+	font-size: 15px;
+	
+}
+.vaccineTable {
+	display: flex;
+	justify-content: center;
+}
+.vaccine {
+	background-color: #eeeeeeee;
+	border: 1.5px solid gray;
+	font-family: 'Noto Sans KR';
+	font-weight: 400;
+	font-size: 15px;
+}
+
+/*캘린더*/
+.react-calendar {
+	width: 99%;
+	font-family: 'Noto Sans KR';
+}
+
+.react-calendar__month-view__days__day--weekend {
+	color: black;
+}
+
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now {
+  background-color: #e6e6e6;
+}
+
+.react-calendar__tile--now:enabled:focus {
+  background: none;
+}
+
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: #008282;
+}
+
+.react-calendar__tile--active {
+  background: #008282;
+  color: white;
+}
